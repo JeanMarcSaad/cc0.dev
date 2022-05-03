@@ -1,0 +1,118 @@
+/* Fonts */
+
+@font-face {
+  font-family: PixelBit;
+  src: url(./assets/fonts/PixelBit.ttf);
+}
+
+@font-face {
+  font-family: Pixeland;
+  src: url(./assets/fonts/Pixeland.ttf);
+}
+
+.App {
+  width: 100vw;
+  height: 100vh;
+  max-height: 100vh;
+  display: flex;
+
+  overflow-x: hidden;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  text-align: center;
+  background: 
+  /* On "top" */
+  repeating-linear-gradient(
+    -45deg,
+    transparent,
+    transparent 40px,
+    rgb(0, 0, 0) 40px,
+    rgb(0, 0, 0) 90px
+  ),
+  /* on "bottom" */
+  linear-gradient(
+    to bottom,
+    #383838,
+    #2d2d2d
+  );
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-submit {
+  width: 22vmin;
+  min-height: 4vmin;
+  border-radius: 35px;
+  font-family: Pixelbit;
+  /* font-family: Pixelbit; */
+  font-size: 18pt;
+  background-color: #ffffff;
+  color: #000000;
+  text-decoration: underline;
+  text-decoration-color: #DB3585;
+  cursor: pointer;
+}
+
+.sign {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  /* font-family: Arial, Helvetica, sans-serif; */
+  font-size: 5vmin;
+  color: white;
+  text-shadow: -1px 0 #831C5F, 0 1px #831C5F, 1px 0 #831C5F, 0 -1px #831C5F;
+  margin: 0;
+}
+
+.details {
+  margin-right: 1%;
+  font-family: Pixeland;
+  font-size: 3vmin;
+  color: rgb(204, 204, 204);
+}
+
+.details a {
+  text-decoration: underline;
+  text-decoration-color: #DB3585;
+  outline: none;
+  color: inherit;
+}
+
+
+@media only screen and (max-width: 600px) {
+  .App-logo {
+    height: 70vmin;
+  }
+
+  .sign {
+    font-size: 8vmin;
+  }
+
+  .details {
+    font-size: 7vmin;
+  }
+
+  .App-submit {
+    margin-top: 5%;
+    width: 60vmin;
+    height: 12vmin;
+    font-size: 15pt;
+  }
+}
+
+.App-cc0 {
+  width: 100%;
+  position: absolute;
+  bottom: 2%;
+  right: 0%;
+  cursor: pointer;
+  margin: 0;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: right;
+}
