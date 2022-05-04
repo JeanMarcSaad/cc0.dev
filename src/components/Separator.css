@@ -1,0 +1,14 @@
+.Separator {
+    height: 1vh;
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Separator div {
+    height: 1px;
+    background-color: whitesmoke;
+    width: 80%;
+}

@@ -1,0 +1,11 @@
+.Pill {
+    width: 70%;
+    height: 20px;
+    background: rgb(231,24,160);
+    background: linear-gradient(-90deg, rgba(231,24,160,1) 0%, rgba(161,27,117,1) 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 12px;
+}

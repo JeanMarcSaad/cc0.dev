@@ -1,0 +1,134 @@
+/* Fonts */
+
+@font-face {
+    font-family: PixelBit;
+    src: url(./../assets/fonts/PixelBit.ttf);
+}
+
+/* Structure */
+
+* {
+    box-sizing: border-box;
+}
+
+.Structure {
+    display: flex;
+    flex-direction: row;
+
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+
+    background-color: black;
+    background: 
+    /* On "top" */
+    repeating-linear-gradient(
+      -45deg,
+      transparent,
+      transparent 40px,
+      rgb(0, 0, 0) 40px,
+      rgb(0, 0, 0) 90px
+    ),
+    /* on "bottom" */
+    linear-gradient(
+      to bottom,
+      #383838,
+      #2d2d2d
+    );
+}
+
+.Sidebar {
+    position: relative;
+    width: 13vw;
+    /* flex: 0.12; */
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+
+    background-color: rgba(0, 0, 0, 0.507);
+    color: white;
+}
+
+.Sidebar-logo {
+    height: 8vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Sidebar-logo img {
+    height: 80%;
+    /* height: 5vh; */
+}
+
+.Sidebar-nav {
+    height: 24vh;
+    /* max-height: 25vh; */
+    padding-left: 6%;
+}
+
+.Sidebar-nav h1 {
+    font-size: 18pt;
+    color: #696969;
+}
+
+.label:after { content: '\A'; display: block; }
+
+
+.selected {
+    color: #dddddd !important;
+}
+
+.Sidebar-settings {
+    height: 62vh;
+    padding-left: 6%;
+}
+
+.Sidebar-settings h1 {
+    font-size: 18pt;
+}
+
+
+.Sidebar-search {
+    width: 90%;
+}
+
+
+.Sidebar-submit-project {
+    height: 5vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Sidebar-submit-project button {
+    width: 90%;
+    height: 60%;
+    font-family: Pixelbit;
+    font-size: 1.5vmin;
+    white-space: nowrap;
+    text-align: center;
+    background: rgb(231,24,160);
+    background: linear-gradient(-90deg, rgba(231,24,160,1) 0%, rgba(161,27,117,1) 100%);
+    border-radius: 10px;
+    color: white;
+    border: none;
+}
+
+/* Main-Content */
+
+.Content {
+    width: 87vw;
+    background-color: rgba(0, 0, 0, 0.137);
+}
+
+/* Media Queries */
+
+@media only screen and (max-width: 600px) {
+    .Sidebar {
+        display: none;
+    }
+    .Content {
+        flex: 1;
+    }
+}
