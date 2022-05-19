@@ -1,0 +1,104 @@
+.project {
+    width: 100%;
+    height: 100px;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    overflow-x: hidden;
+    border: 1px solid rgb(66, 66, 66);
+    background-color: rgba(29, 29, 29, 0.949);
+}
+
+.project a {
+    color: white;
+    font-weight: bold;
+    text-decoration-color: #DB3585;
+}
+
+.project__img {
+    flex: 0.2;
+    width: 20%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 2%;
+}
+
+.project__img img {
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 10px;
+}
+
+.project__info {
+    flex: 0.6;
+    height: 100%;
+    padding-left: 4%;
+    overflow: hidden;
+
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+}
+
+.project__info h1 {
+    margin: 0;
+    margin-bottom: 3%;
+    font-size: 12pt;
+}
+
+.project__icon {
+    cursor: pointer;
+}
+
+.project__icon:hover {
+    color: #DB3585;
+}
+
+.project__icon--opensea:hover {
+    background-color: #DB3585;
+    -webkit-mask: url(../assets/images/svg/opensea.svg) no-repeat center;
+    mask: url(../assets/images/svg/opensea.svg) no-repeat center;
+}
+
+.project__info p {
+    margin: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: pre-wrap;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+            line-clamp: 3; 
+    -webkit-box-orient: vertical;
+    color: rgb(220, 220, 220);
+    font-size: 10pt;
+}
+
+.project__links {
+    flex: 0.25;
+    height: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    padding-right: 3%;
+}
+
+.project__links > img {
+    flex: 33%;
+    height: 18px;
+}
+
+.project__links > svg {
+    flex: 33%;
+    font-size: 18px;
+    margin: 5%;
+}
+
+@media only screen and (min-width: 768px) {
+}
