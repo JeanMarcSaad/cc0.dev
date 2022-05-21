@@ -20,7 +20,8 @@ align-items: center;
 justify-content: center;
 
 overflow-x: hidden;
-overflow-y: hidden;
+overflow-y: scroll;
+/* overflow-y: hidden; */
 flex-direction: column;
 align-items: left;
 justify-content: left;
@@ -97,19 +98,22 @@ repeating-linear-gradient(
 
 .projects__body {
     width: 100%;
-    height: 85%;
+    /* height: 85%; */
 }
 
 .projects__search {
+    position: sticky;
+    top: 0;
     font-family: sans-serif, 'Font Awesome 5 Free';
     width: 100%;
     height: 40px;
-    margin-bottom: 5%;
+    border-bottom: solid 5px black;
+    /* margin-bottom: 1%; */
+
 }
 
 .projects__list {
-    max-height: 85%;
-    overflow-y: scroll;
+    min-height: 85%;
     overflow-x: hidden;
 }
 
