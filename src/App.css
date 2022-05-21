@@ -2,12 +2,21 @@
 
 @font-face {
   font-family: PixelBit;
-  src: url(./assets/fonts/PixelBit.ttf);
+  src: url(./assets/fonts/PixelBit2.ttf);
 }
 
 @font-face {
   font-family: Pixeland;
   src: url(./assets/fonts/Pixeland.ttf);
+}
+
+@font-face {
+  font-family: 'Pixel Bit Free';
+  src: url('./assets/fonts/PixelBitFree.woff2') format('woff2'),
+      url('./assets/fonts/PixelBitFree.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
 }
 
 .App {
@@ -40,15 +49,15 @@
 }
 
 .App-logo {
-  height: 40vmin;
+  height: 38vmin;
   pointer-events: none;
 }
 
 .App-submit {
-  width: 22vmin;
+  min-width: 22vmin;
   min-height: 4vmin;
   border-radius: 35px;
-  font-family: Pixelbit;
+  font-family: 'Pixel Bit Free';
   /* font-family: Pixelbit; */
   font-size: 18pt;
   background-color: #ffffff;
@@ -56,6 +65,32 @@
   text-decoration: underline;
   text-decoration-color: #DB3585;
   cursor: pointer;
+
+  white-space: nowrap;
+  text-align: center;
+  padding: 5%;
+
+  margin-bottom: 2vh;
+  transition: all 0.25s ease;
+}
+
+.App-submit:hover {
+  background-color: #cecece;
+}
+
+.App-submit:active {
+  color: white;
+  background-color: #000000;
+}
+
+.App-button {
+  padding: 2%;
+  min-width: 22vmin;
+  font-size: 18pt;
+  /* background-color: #DB3585;
+  color: white;
+  text-decoration: underline;
+  text-decoration-color: black; */
 }
 
 .sign {
@@ -97,19 +132,18 @@
 
   .App-submit {
     margin-top: 5%;
-    width: 60vmin;
-    height: 12vmin;
+    min-width: 60vmin;
     font-size: 15pt;
   }
 }
 
 .App-cc0 {
-  width: 100%;
   position: absolute;
-  bottom: 2%;
+  bottom: 1%;
   right: 0%;
   cursor: pointer;
   margin: 0;
+  width: 100%;
 
   display: flex;
   flex-direction: row;

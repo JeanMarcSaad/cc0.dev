@@ -1,0 +1,127 @@
+/* Fonts */
+
+@font-face {
+    font-family: PixelBit;
+    src: url(./assets/fonts/PixelBit.ttf);
+}
+
+@font-face {
+    font-family: Pixeland;
+    src: url(./assets/fonts/Pixeland.ttf);
+}
+
+.projects {
+color: white;
+width: 100vw;
+height: 100vh;
+max-height: 100vh;
+display: flex;
+align-items: center;
+justify-content: center;
+
+overflow-x: hidden;
+overflow-y: hidden;
+flex-direction: column;
+align-items: left;
+justify-content: left;
+position: relative;
+text-align: left;
+background: 
+/* On "top" */
+repeating-linear-gradient(
+        -45deg,
+        transparent,
+        transparent 40px,
+        rgb(0, 0, 0) 40px,
+        rgb(0, 0, 0) 90px
+    ),
+    /* on "bottom" */
+    linear-gradient(
+        to bottom,
+        #383838,
+        #2d2d2d
+    );
+
+}
+
+.projects__header {
+    padding-left: 4%;
+    padding-right: 2%;
+    width: 100%;
+    /* width: 40%; */
+    text-align: left;
+}
+
+.projects__header a {
+    color: white;
+    border-radius: 20px;
+    font-size: 10pt;
+    font-weight: bold;
+    text-decoration-color: #DB3585;
+    transition: all 0.25s ease;
+}
+
+.styled a:hover {
+    color: black;
+    background-color: rgb(218, 218, 218);
+}
+
+.styled {
+    padding: 1%;
+}
+
+.projects__header a:active {
+    background-color: black;
+    color: white;
+}
+
+.projects__logo-header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 18vmin;
+}
+.projects__header > span {
+    text-decoration: none !important;
+}
+
+.projects__header h1 {
+    margin-bottom: 0;
+    text-decoration: underline;
+    text-decoration-color: #DB3585;
+}
+
+.projects__header p {
+    color: #929292;
+}
+
+.projects__body {
+    width: 100%;
+    height: 85%;
+}
+
+.projects__search {
+    font-family: sans-serif, 'Font Awesome 5 Free';
+    width: 100%;
+    height: 40px;
+    margin-bottom: 5%;
+}
+
+.projects__list {
+    max-height: 85%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+
+@media only screen and (min-width: 768px) {
+    .projects__header {
+        width: 50%;
+        padding-left: 0%;
+        padding-right: 0%;
+    }
+
+    .projects__body {
+        width: 50%;
+    }
+}
