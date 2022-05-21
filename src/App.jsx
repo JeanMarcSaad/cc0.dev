@@ -9,6 +9,10 @@ function App() {
   return (
     <div className="App">
       <img src={logo} className="App-logo" alt="logo" />
+      <Link to="/projects">
+        <button className="App-submit App-button">Projects</button>
+      </Link>
+
       <Link to="/submit-project">
         <button className="App-submit">SUBMIT YOUR CCO PROJECT</button>
       </Link>
