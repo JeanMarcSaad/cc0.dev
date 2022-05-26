@@ -43,7 +43,7 @@ const Projects = () => {
             <div className="projects__header">
                 <h1><span style={{fontSize: "14pt", marginRight: "2%", cursor: "pointer"}} onClick={()=>navigate('/')}><BsFillArrowLeftCircleFill/></span>Projects</h1>
                 <p style={{color: "white"}}>The following {projects.length} Projects have been declared as <a href="https://creativecommons.org/share-your-work/public-domain/cc0/" style={{fontSize: "12pt", margin: "0"}}><u style={{textDecorationColor: "#DB3585"}}><b>CC0</b></u></a>, and have therefore been placed in the public domain.</p>
-                <p><Link to='/submit-project' className='styled'>Submit your project</Link></p>
+                <p className='styled'><Link to='/submit-project'>Submit your project</Link></p>
             </div>
             <div className="projects__body">
                 <input type="search" className='projects__search' placeholder='Search for a CC0 Project' onChange={searchCallback}/>
