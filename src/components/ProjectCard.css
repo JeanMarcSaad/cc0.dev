@@ -100,5 +100,19 @@
     margin: 5%;
 }
 
+
+.project__type {
+    margin-left: 3%;
+    padding: 4px;
+    /* font-family: 'Pixel Bit Free'; */
+    font-size: 10pt;
+    border-radius: 5px;
+}
+.DAO {
+    color: #FFFFFF;
+    text-shadow: 1px 1px 0px #000000, 2px 2px 0px #000000;
+    background-color: #DB3585;
+}
+
 @media only screen and (min-width: 768px) {
 }

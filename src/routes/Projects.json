@@ -31,6 +31,7 @@
         "name": "Nouns",
         "description": "One Noun, every day, forever.\\r\\n\\r\\nnouns.wtf",
         "external_link": "https://nouns.wtf",
+        "type": "DAO",
         "twitter_username": null,
         "opensea_url": "https://opensea.io/collection/nouns",
         "total_supply": 320,
@@ -576,8 +577,9 @@
     {
         "name": "WizardsDAO",
         "description": "Professional Degenerates. CC0. 2000 Wizards ever.",
+        "type": "DAO",
         "external_link": "https://wizardsdao.com",
-        "twitter_username": null,
+        "twitter_username": "WizardsDAO",
         "opensea_url": "https://opensea.io/collection/wizardsdao",
         "total_supply": 516,
         "num_owners": 241,
@@ -1048,5 +1050,84 @@
         "featured_image_url": "https://lh3.googleusercontent.com/XREf73GJN8opQGjkiibg2unh3RlJJbf_F27PAmgdYlXbqA1wM9_ZDZDMCegzzmLK_LGMnhqOgL9UiPNya7XGIeWcf4qY0ICHjuJ84w=s300",
         "banner_image_url": "https://lh3.googleusercontent.com/M6X4-_Tm9xQ9dlHqaiChKLlgUFNCDKexS7CN71PKAvRiV8seSJMNoQ3ehnIyccPrhxpTFsgLTc26O-pSPlvCaqeFyLwJae5en1-W=s2500",
         "average_price": 0.10929232901274075
+    },
+    {
+        "name": "DIGITALAX",
+        "description": "Decentralised indie self sovereign enabled web3 fashion & complements",
+        "type": "DAO",
+        "external_link": "https://www.digitalax.xyz/",
+        "twitter_username": "DIGITALAX_",
+        "image_url": "https://pbs.twimg.com/profile_images/1326968455979941888/sZszGa-d_400x400.jpg"
+    },
+    {
+        "name": "CC:0 DAO",
+        "description": "The Copyright Cartel: 0 (CC:0) DAO is a dedicated Web3 Creative Commons DAO",
+        "type": "DAO",
+        "external_link": "https://docs.cc0dao.xyz/",
+        "twitter_username": "cc0dao",
+        "image_url": "https://pbs.twimg.com/profile_images/1476606434511097859/pIOBuUH7_400x400.jpg"
+    },
+    {
+        "name": "F3 Manifesto",
+        "description": "Web3 Fashion Manifesto. Vintage 50s Americana, Ultra Bright Neon Decopunk & Patch Work Digicore Street Style.",
+        "external_link": "https://www.f3manifesto.xyz/",
+        "twitter_username": "f3manifesto",
+        "image_url": "https://pbs.twimg.com/profile_images/1473547458567450625/Cmk_eDLj_400x400.jpg"
+    },
+    {
+        "name": "swol mfers",
+        "description": "get swol mfer https://mint.swolmfers.com",
+        "external_link": "https://mint.swolmfers.com/",
+        "twitter_username": null,
+        "opensea_url": "https://opensea.io/collection/swol-mfers",
+        "total_supply": 358,
+        "num_owners": 51,
+        "image_url": "https://lh3.googleusercontent.com/b9ns5Dp_wOmzIv3P5KmmVfheff7NKG_w3YkBMo7kAhc2ZHdnvrWq4XxgF2xGhORI9mmSR8xlBuJmsfZFFOhmr0LlbNB_gyZI8eC6Xw=s120",
+        "large_image_url": "https://lh3.googleusercontent.com/4j9VJNzYiBzaYEcYgymnHAxIZHiAhLplgQoGWgaJVckfmV8Gl0OPGck4kKSMzJ0eMKWy5prSOW4-HXH95kZoE4YugV8IwUYlWycK=s300",
+        "featured_image_url": "https://lh3.googleusercontent.com/4j9VJNzYiBzaYEcYgymnHAxIZHiAhLplgQoGWgaJVckfmV8Gl0OPGck4kKSMzJ0eMKWy5prSOW4-HXH95kZoE4YugV8IwUYlWycK=s300",
+        "banner_image_url": "https://lh3.googleusercontent.com/UCivggARsqB7AWW2RBnTYjh2rfeSpWJ9F5P987tOg_8XO4YjfghH9H6XvPK1pisyqAR-8sGKNIi_v1FbybFkJDUD12MAbIqebkajMs8=s2500",
+        "average_price": 0
+    },
+    {
+        "name": "Nounish Eggs",
+        "description": "555 Ornamental Nounish Eggs ⌐◨-◨\\n\\nSurprise Easter drop from [World of Noun](https://worldofnoun.com).\\n\\n\\nNounish Eggs [now minting](https://nounisheggs.com).",
+        "external_link": "https://www.nounisheggs.com/",
+        "twitter_username": null,
+        "opensea_url": "https://opensea.io/collection/nounish-eggs",
+        "total_supply": 555,
+        "num_owners": 120,
+        "image_url": "https://lh3.googleusercontent.com/xm97menb8UDjM8NbOu2MhC83pTFcaIjrhC-D2cbk2ROiZ9e54_dX4lpjSkg5u52fyWse0btonhnlIsy5Zi4RWM0CpSDXrE8wCKV_5A=s120",
+        "large_image_url": "https://lh3.googleusercontent.com/KIHgXcfpuZVMHBVBvglsSfwLVMZ4gHhQZMoMMd5t6xM0h0ornrVOfDubMwdIxdBvBrEqupkz-Tp7dDZK97nNiCl8nTqet21yNCdw_9E=s300",
+        "featured_image_url": "https://lh3.googleusercontent.com/KIHgXcfpuZVMHBVBvglsSfwLVMZ4gHhQZMoMMd5t6xM0h0ornrVOfDubMwdIxdBvBrEqupkz-Tp7dDZK97nNiCl8nTqet21yNCdw_9E=s300",
+        "banner_image_url": "https://lh3.googleusercontent.com/K-VVk4l5g2iIZhEScKMR9OE6ju_OKkPoi5oxPXbbBM4tlNPdxHlNtVxBF88xCcEv3k1fBIWo9kjv2Zk2ryeJhQD9-5vt40wxKkF8Iw=s2500",
+        "average_price": 0.07500000000000001
+    },
+    {
+        "name": "Shiny Club",
+        "description": "Infinite, collaborative, inclusive. On-chain art & CC0. Always minting at shiny.club.",
+        "external_link": "https://shiny.club",
+        "twitter_username": null,
+        "opensea_url": "https://opensea.io/collection/shinyclub",
+        "total_supply": 39,
+        "num_owners": 17,
+        "image_url": "https://lh3.googleusercontent.com/9ymtuQq1q4qRxXmw6cqcxd3rGaWZEGFga5rlUigtIyK1YBE35-lldW2rdNdEvHgWznMg2STWCdZDU3VcYXSlcI_N5nJKXWs9gIX-7Q=s120",
+        "large_image_url": null,
+        "featured_image_url": null,
+        "banner_image_url": null,
+        "average_price": 0
+    },
+    {
+        "name": "Tiny Ninjas (eth)",
+        "description": "Tiny, but mighty.\\n\\n1 of 10,000 cc0 tiny ninjas minted across 7 different chains.",
+        "external_link": "https://linktr.ee/tinyninjasnft",
+        "twitter_username": null,
+        "opensea_url": "https://opensea.io/collection/tinyninjaseth",
+        "total_supply": 4796,
+        "num_owners": 2200,
+        "image_url": "https://lh3.googleusercontent.com/PO7IQ2fIXgB8v1n8pLP78YSHL5foAndbCTZU4gp3nmufVkIJtW3l_ETy_Jn7nxCs-BZVIdt547wWBwklHf4_f_rItWuply94UTi7pg=s120",
+        "large_image_url": "https://lh3.googleusercontent.com/KPdRfmCqs8fvHfen-KRyOqxCz2hU5YmxkheQLRDvc7RkwlYpjHFUXGJyj8-2hmZWvjKLStIBakWzdCuxPHWEAk5Arg2-IuSzWT-K=s300",
+        "featured_image_url": "https://lh3.googleusercontent.com/KPdRfmCqs8fvHfen-KRyOqxCz2hU5YmxkheQLRDvc7RkwlYpjHFUXGJyj8-2hmZWvjKLStIBakWzdCuxPHWEAk5Arg2-IuSzWT-K=s300",
+        "banner_image_url": "https://lh3.googleusercontent.com/KPdRfmCqs8fvHfen-KRyOqxCz2hU5YmxkheQLRDvc7RkwlYpjHFUXGJyj8-2hmZWvjKLStIBakWzdCuxPHWEAk5Arg2-IuSzWT-K=s2500",
+        "average_price": 0.003257778348101269
     }
 ]
