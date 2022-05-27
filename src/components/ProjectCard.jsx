@@ -30,7 +30,7 @@ const ProjectCard = (props) => {
                 <img src={imageUrl} />
             </div>
             <div className='project__info'>
-                <h1>{name}</h1>
+                <h1>{name}{props.project.type&& <span className={"project__type "+props.project.type}>{props.project.type}</span>}</h1>
                 <ReactMarkdown>{description}</ReactMarkdown>
             </div>
             <div className='project__links'>

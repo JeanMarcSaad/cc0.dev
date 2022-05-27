@@ -29,7 +29,7 @@ const Projects = () => {
             }));
         else {
             setProjects([...new Set(project_data)].filter((proj) => {
-                return proj.name.toLowerCase().trim().includes(_searchQuery);
+                return proj.name.toLowerCase().trim().includes(_searchQuery) || proj.type?.toLowerCase().trim().includes(_searchQuery);
             }).sort((a, b) => {
                 if(a.name < b.name) { return -1; }
                 if(a.name > b.name) { return 1; }
