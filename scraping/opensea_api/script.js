@@ -2,7 +2,7 @@ let urls = [
   "https://opensea.io/collection/specscapes",
   "https://opensea.io/collection/shonen-junk-official",
   "https://opensea.io/collection/nounish-apes",
-  "https://opensea.io/collection/birbznft",
+  "https://opensea.io/collection/birbznft"
 ]
 
 let projects = [];
